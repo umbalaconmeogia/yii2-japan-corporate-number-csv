@@ -15,8 +15,8 @@ class m230715_055707_create_corporate_number_table extends Migration
     {
         $this->createTable('{{%corporate_number}}', [
             'id' => $this->primaryKey(),
-            'sequenceNumber' => $this->integer()->unique(),
-            'corporateNumber' => $this->string()->unique(),
+            'sequenceNumber' => $this->integer(),
+            'corporateNumber' => $this->string(),
             'process' => $this->string(),
             'correct' => $this->tinyInteger(),
             'updateDate' => $this->date(),
