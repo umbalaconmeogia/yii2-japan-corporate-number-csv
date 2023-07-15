@@ -1,0 +1,24 @@
+{
+    "name": "umbalaconmeogia/yii2-japan-corporate-number-csv",
+    "description": "Webpage to view Japanpost Corporate Number CSV data",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+		"Japan",
+        "Corporate Number"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tran Trung Thanh",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "umbalaconmeogia\\japancorpnum\\": "src/"
+        }
+    }
+}
