@@ -42,7 +42,7 @@ class Module extends \yii\base\Module
             'forceTranslation' => true,
             'basePath' => '@umbalaconmeogia/japancorpnumcsv/messages',
             'fileMap' => [
-                'app' => 'app.php',
+                'japancorpnumcsv' => 'japancorpnumcsv.php',
             ],
         ];
     }
@@ -52,7 +52,7 @@ class Module extends \yii\base\Module
      */
     public function getIntroName()
     {
-        return Yii::t('app', 'introName');
+        return Yii::t('japancorpnumcsv', 'introName');
     }
 
     /**
@@ -60,7 +60,7 @@ class Module extends \yii\base\Module
      */
     public function getIntroDescription()
     {
-        return Yii::t('app', 'introDescription');
+        return Yii::t('japancorpnumcsv', 'introDescription');
     }
 
     public function getIntroUrl()
