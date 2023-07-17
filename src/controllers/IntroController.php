@@ -1,6 +1,6 @@
 <?php
 
-namespace umbalaconmeogia\japancorpnum\controllers;
+namespace umbalaconmeogia\japancorpnumcsv\controllers;
 
 use yii\web\Controller;
 

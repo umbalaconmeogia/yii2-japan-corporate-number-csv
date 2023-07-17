@@ -1,13 +1,13 @@
 <?php
 
-use umbalaconmeogia\japancorpnum\models\CorporateNumber;
+use umbalaconmeogia\japancorpnumcsv\models\CorporateNumber;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 
 /** @var yii\web\View $this */
-/** @var umbalaconmeogia\japancorpnum\models\CorporateNumberSearch $searchModel */
+/** @var umbalaconmeogia\japancorpnumcsv\models\CorporateNumberSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
 $this->title = Yii::t('app', 'Corporate Numbers');

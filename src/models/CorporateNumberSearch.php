@@ -1,5 +1,5 @@
 <?php
-namespace umbalaconmeogia\japancorpnum\models;
+namespace umbalaconmeogia\japancorpnumcsv\models;
 
 
 use yii\base\Model;

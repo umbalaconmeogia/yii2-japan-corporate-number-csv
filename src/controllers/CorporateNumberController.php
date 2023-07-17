@@ -1,9 +1,9 @@
 <?php
 
-namespace umbalaconmeogia\japancorpnum\controllers;
+namespace umbalaconmeogia\japancorpnumcsv\controllers;
 
-use umbalaconmeogia\japancorpnum\models\CorporateNumber;
-use umbalaconmeogia\japancorpnum\models\CorporateNumberSearch;
+use umbalaconmeogia\japancorpnumcsv\models\CorporateNumber;
+use umbalaconmeogia\japancorpnumcsv\models\CorporateNumberSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 

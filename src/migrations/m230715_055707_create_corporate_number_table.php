@@ -1,5 +1,5 @@
 <?php
-namespace umbalaconmeogia\japancorpnum\migrations;
+namespace umbalaconmeogia\japancorpnumcsv\migrations;
 
 use yii\db\Migration;
 

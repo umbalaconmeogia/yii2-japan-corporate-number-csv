@@ -1,7 +1,7 @@
 <?php
-namespace umbalaconmeogia\japancorpnum\commands;
+namespace umbalaconmeogia\japancorpnumcsv\commands;
 
-use umbalaconmeogia\japancorpnum\models\CorporateNumber;
+use umbalaconmeogia\japancorpnumcsv\models\CorporateNumber;
 use Yii;
 use yii\console\Controller;
 
